@@ -1,0 +1,91 @@
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Header / Hero */
+.hero {
+  background: #007BFF;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero .btn {
+  background: #0056b3;
+  padding: 12px 25px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+/* Features Section */
+.features {
+  padding: 40px 20px;
+  background: #fff;
+  text-align: center;
+}
+
+.features h2 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.feature-box {
+  margin: 20px auto;
+  max-width: 300px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #f0f0f0;
+}
+
+/* CTA Section */
+.cta {
+  background: #28a745;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.cta .btn {
+  background: #1e7e34;
+  padding: 12px 25px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+/* Contact Section */
+.contact {
+  padding: 40px 20px;
+  text-align: center;
+  background: #e9ecef;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #343a40;
+  color: white;
+}
